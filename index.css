@@ -1,10 +1,44 @@
 body {
-  color:black;
+  background-color:#414a37;
+  margin-left: 35px;
+  width: 90%;
+}
+
+h1, h2, h3 {
+  color: #bf9d6d;
 }
 
 h1 {
-  font-size: 50px;
-  background-color: pink;
-  color: blanchedalmond;
+  font-size: 70px;
+  /* background-color: #ee9695; */
+  font-style: italic;
+  font-family: "Jacquard 12", serif;
+  font-weight: 400;
+  /* padding: 10px; */
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+nav {
+  padding: 5px;
+}
+
+p, ul, ol, table {
+  /* background-color: #bf9d6d; */
+  /* color: #414a37; */
+  color: #99744a;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: #b78c5b;
   font-style: italic;
 }
