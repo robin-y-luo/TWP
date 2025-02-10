@@ -22,6 +22,26 @@ h2 {
   font-size: 30px;
   font-style: italic;
   font-weight: bolder;
+  font-family: "Workbench", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: "Workbench", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
 }
 
 nav {
@@ -32,13 +52,17 @@ p, ul, ol, table {
   /* background-color: #bf9d6d; */
   /* color: #414a37; */
   color: #99744a;
-}
-
-p {
-  font-size: 20px;
+  font-size: 30px;
+  font-family: "Road Rage", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a {
   color: #b78c5b;
   font-style: italic;
+}
+
+img {
+  width:40%;
 }
