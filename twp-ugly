@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>trash week prokjment</title>
+		<style>
+			body {
+				background-color:aquamarine;
+			}
+			nav {
+				font-size: 10px;
+				color:yellow;
+				background-color:greenyellow;
+				font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			}
+			a {
+				color:yellow;
+			}
+			h1 {
+				color:white;
+				background-color: azure;
+				border: 15px solid orange;
+			}
+			h2 {
+				color:antiquewhite;
+				background-color: aliceblue;
+				border: 15px dotted brown;
+			}
+			h3 {
+				font-size: 10px;
+				color: pink;
+				background-color:lightpink;
+				font-weight: bold;
+			}
+			p {
+				color:brown;
+				background-color:saddlebrown;
+				font-size: 60px;
+				font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+				margin: 40px;
+			}
+			ul {
+				color:darkslategray;
+				background-color:darkslateblue;
+				font-size:200px;
+				font-style: italic; 
+			}
+			ol {
+				color:gold;
+				background-color:goldenrod;
+				font-size:200px;
+				font-style: oblique; 
+			}
+			img {
+				height: 5000px;
+				margin:1000px;
+				padding: 200px;
+				background-color: pink; 
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<!--		1. Headings: Main page title (h1), Section headings (h2), sub-section headings for the Overview (h3).-->
+	<h1>Week 6 - Illness and Recovery</h1>
+		
+	<nav>
+		    <a href="#preface">Preface</a> |
+			<a href="#overview">Overview</a> |
+	  		<a href="#gallery">Gallery</a> |
+			<a href="#data">Item Data</a> |
+			<a href="#gallery">Gallery</a> |
+			<a href="#iotw">Item of the Week</a> |
+			<a href="#coda">Coda</a>
+		</nav>
+		<!--2. Text divided into short paragraphs (p) for the Preface, Overview, Item of the Week, and Coda sections-->
+	<div id="preface">
+			<h2>Preface:</h2>
+			<p>
+				I decided to keep track of my weekly trash items as a method of recording my life and being more mindful of the objects I use and discard. I wanted to see more clearly the accumulation of my trash. Each item has a backstory and reason for landing in my trash can.  
+			</p>
+			<p>
+				Most of my trash turned out to be either food waste or packaging. I very rarely throw out full items because of disuse. I tend to hold great sentimental value towards items, and only trash things that are broken beyond repair. Otherwise, my items tend to end up donated, gifted to a friend, or back in my parent’s house.
+			</p>
+			<p>
+				I share my trash in hopes that other people will follow suit. There is great potential in learning about another person through their discarded items. They keep a unique record of a person’s comings and goings. I also want to invite others to reflect on their consumption patterns. Raised in an Asian household, I was taught to always minimize waste and to recycle/compost properly. I wonder if being more aware of trash will motivate others to practice similar habits.
+			</p>
+			<p>
+				In the future, I hope a pattern will be revealed through my catalog of trash. I hope I am able to learn more about myself, and through this, maybe plan my life accordingly or readjust my habits.
+			</p>
+		</div>
+		
+	<div id="overview">
+			<h2>Overview:</h2>
+	  <p>
+				My trash this week told a story of my interactions with loved ones, what happened to me, and activities I chose to do. I had one of the worst illnesses in my entire life, suffering from constant, extreme fatigue and complete lack of appetite. I had a pack of Mucinex cold medicine that my roommate gave to me to help, since I was unable to leave the building independently. The day before this illness hit, I dyed my hair with a cheap box dye that turned it a horrible neon orange. I was suffering from both a cold and ugly hair. The hair dying kit is where the hair mask came from. The bottle of hair dye featured is one of two bottles I had to buy in order to mix together a new color to fix my ruined hair.
+	  </p>
+			<!--3. Hyperlinks in the Overview section to Wikipedia articles or to other relevant online resources for each of your nine items (using the first mention of each item as the anchor text for the link).-->
+			<h3>Group One: Pre-Cold Objects - These are items I was gifted or purchased before I got sick. Many of these represent joyful times and fun activities. 
+			</h3>
+			<ul>
+				<li><a href="https://www.modelousa.com/pages/story-founders">Beer Bottle</a>: My friend brought a case of these over for a housewarming party. I’ve always loved the shape of these smooth, rounded, glass bottles. I drink these because of an old friend, and they remind me of him each time I get them.</li>
+				<li><a href="http://nintendo.com/us/store/products/kirby-and-the-forgotten-land-switch/?srsltid=AfmBOoqtOsAxv-92DrmGT0_BPtRZghvDZn4QYoaW3_b15MjB1rv7Cc9N">Toy Box</a>: My partner bought me this as a gift, because he knows I like Kirby. I kept the box because it has cute designs on it, but I no longer need this cardboard.</li>
+				<li><a href="https://idewcare.com/products/scoop-party?variant=46722443084028&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopBy5UXAAh9P5kur3nO0dwgkq5gAKyO0Cl49f5B6_2e0EaVYVl3fIw&gQT=1">Face Mask</a>: I bought this for my sister about a year ago because she needed some skin care items. She never used it, so I took it. The mask had strawberry seeds in it.</li>
+				<li><a href="https://en.wikipedia.org/wiki/Miffy_and_Friends">Nail Stickers</a>: I bought these at Daiso, the Japanese dollar store. I love Daiso, but it is tragic that they have to increase their prices to almost $2 now.</li>
+				<li><a href="https://www.lorealparisusa.com/hair-color/hair-color-bleaches/hyper-platinum-advanced-lightening-system-bleach">Hair Mask</a>: This came with the hair dye kit. It barely helps mitigate the ugly orange color.</li>
+			</ul>
+	  <h3>Group Two: Mid-Cold Objects - These are items I used during my illness. They are utilitarian and sad.</h3>
+			<ul>
+				<li><a href="https://vicks.com/en-us/shop-products/dayquil/dayquil-nyquil-liquicaps-cold-medication-co-pack">Cold Medicine</a>: Mucinex given to me by my kind roommate, since I was unable to leave my room. She instructed me to only take half a pill at once, since they are the maximum strength kind. They made me hallucinate and lose sleep. Unsure what they did to alleviate symptoms.</li>
+				<li><a href="https://www.costco.ca/hero-mighty-patch-original-%2526-invisible%2B%2C-84-count-pack.product.4000281357.html">Acne Patches</a>: I got blisters during the cold, and these helped to heal them.</li>
+			</ul>
+			<h3>Group Three: Post-Cold (Recovery) Objects - These are items I bought to celebrate the end of my cold.</h3>
+			<ul>
+				<li><a href="https://locations.traderjoes.com/">Flowers</a>: I saw these at a grocery store and I bought them to give to my partner. They were about $5 and they remind me of Spring.</li>
+				<li><a href="https://arcticfoxhaircolor.com/products/transylvania-black-hair-dye">Hair Dye</a>: This is the black hair dye variant from Arctic Fox. I mixed it with a purple to create a dark blue color. My hair is now copper with lavender ends. I don’t know how this happened.</li>
+			</ul>
+		</div>
+		<!--4. Images (img) for your nine items (in the Gallery section) and your item of the week.-->
+		<div id="gallery">
+			<h2>Gallery:</h2>
+			<img src="../../../Downloads/modelo.jpg" width="200" alt="">
+			<p>Beer Bottle</p>
+			
+			<img src="../../../Downloads/kirby.jpg" width="200" alt="">
+			<p>Toy Box</p>
+			
+			<img src="../../../Downloads/mask.jpg" width="200" alt="">
+			<p>Face Mask</p>
+			
+			<img src="../../../Downloads/miffy.jpg" width="200" alt="">
+			<p>Nail Stickers</p>
+			
+			<img src="../../../Downloads/muc.jpg" width="200" alt="">
+			<p>Cold Medicine</p>
+			
+			<img src="../../../Downloads/bleach.jpg" width="200" alt="">
+			<p>Hair Mask</p>
+			
+			<img src="../../../Downloads/patch.jpg" width="200" alt="">
+			<p>Acne Patches</p>
+			
+			<img src="../../../Downloads/flowers.jpg" width="200" alt="">
+			<p>Flowers</p>
+			
+			<img src="../../../Downloads/aerctic.jpg" width="200" alt="">
+			<p>Hair Dye</p>			
+		</div>
+<!--5. Two ordered lists (ol) for the Item Data section, each ordering your nine items in terms of  a shared property (e.g., from most expensive to least expensive, from most dangerous to least dangerous). Give each list a descriptive heading (h3).-->
+		<div id="data">
+			<h2>Item Data:</h2>
+			<p>Critics Review in Sparking Joy (Descending Order)</p>
+			<ol>
+				<li>Beer Bottle</li>
+				<li>Toy Box</li>
+				<li>Flowers</li>
+				<li>Hair Mask</li>
+				<li>Acne Patches</li>
+				<li>Hair Dye</li>
+				<li>Face Mask</li>
+				<li>Cold Medicine</li>
+				<li>Nail Stickers</li>
+			</ol>
+			<p>Price (Descending Order)</p>
+			<ol>
+				<li>Cold Medicine</li>
+				<li>Hair Mask</li>
+				<li>Hair Dye</li>
+				<li>Acne Patches</li>
+				<li>Face Mask</li>
+				<li>Flowers</li>
+				<li>Toy Box</li>
+				<li>Beer Bottle</li>
+				<li>Nail Stickers</li>
+			</ol>
+		</div>
+		
+		<div id="iotw">
+			<h2>Item of the Week:</h2>
+			<img src="../../../Downloads/iotw_modelo.jpg" width="200"/>
+			<p>I selected this item because I have the strongest memory associated with it. I acquired a case of beer for my housewarming party, and I got to see all my friends together for the first time in a while in my new apartment. It was right after a very difficult month where I struggled with loneliness and depression. My friend, on the drive over, picked up the case for us. It was one of the better parties I’ve had in college. Unfortunately, I am currently dealing with small internal conflicts within this same friend group. Despite this, I am certain we will get back to the usual soon. My friend and roommates helped me clean up the area the morning after, which is when the bottle got disposed of.</p>
+			<p>
+				ITEM: Empty Bottle of Modelo Especial  <br>
+				Materials: glass, foil, paper  <br>
+				Provenance: Mexico <br>
+				Production details: Modelo beer is produced in Mexico using Water, Barley Malt, Non-malted Cereals and Hops. It is a Pilsner-style beer, brewed using inspiration from German brewmasters. <br>
+				Date or date range: unknown <br>
+				Still in production: Yes <br>
+				Still attainable from: most places selling alcohol <br>
+				History of Development: Modelos were first brewed in 1925, in Tacuba, Mexico. To give it character, Modelo Especial has a clear bottle with a unique shape that is sealed with gold. This Pilsner-style lager has been brewed for over 90 years now. <br>
+				Cultural Significance: Modelos are one of Mexico’s most iconic and popular beers in the US. They represent tradition, high quality, culture, and passion.  <br>
+				Health Effects: standard alcohol impact; excessive use may lead to physical injury (ex: organ damage)
+			</p>
+		</div>
+		
+		<div id="coda">
+			<h2>Coda</h2>
+			<p>Thank you to everyone who took the time to read and take part in my Trash of the Week project! I hope this catalogue inspires you to do something creative of your own. Next week’s trash seems promising and I look forward to tracking it all. Feel free to leave any thoughts in the comments section, and I hope you have a great week!</p>
+		</div>
+	</body>
+</html>
