@@ -1,7 +1,31 @@
+/*
+  Robin Luo
+  Spring 2025
+  Web Authoring
+  index.css stylesheet for main.html
+*/
+
+.wrapper {
+  /* background: #ffffff; */
+  width: 972px;  /* give the element a fixed width */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px;
+}
+
 body {
   background-color:#414a37;
   margin-left: 35px;
   width: 90%;
+}
+
+.site-logo-image {
+  width: 80px;
+  padding-bottom: 10px;
+}
+
+.site-logo {
+  padding-bottom:20px;
 }
 
 h1, h2, h3 {
@@ -9,13 +33,15 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 70px;
+  background-color:#3a4231;
+  font-size: 80px;
   /* background-color: #ee9695; */
   font-style: italic;
   font-family: "Jacquard 12", serif;
   font-weight: 400;
-  /* padding: 10px; */
-  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 35px;
+  margin-bottom: 25px;
 }
 
 h2 {
@@ -31,7 +57,7 @@ h2 {
     "SCAN" 0;
 }
 
-h3 {
+h3, header {
   font-size: 20px;
   font-style: italic;
   font-weight: bolder;
@@ -46,6 +72,7 @@ h3 {
 
 nav {
   padding: 5px;
+  padding-top: 20px;
 }
 
 p, ul, ol, table {
