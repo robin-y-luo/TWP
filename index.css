@@ -21,12 +21,11 @@ body {
 
 .site-logo-image {
   width: 80px;
-  padding-bottom: 10px;
 }
-
+/*
 .site-logo {
   padding-bottom:20px;
-}
+} */
 
 h1, h2, h3 {
   color: #bf9d6d;
@@ -42,6 +41,20 @@ h1 {
   padding: 10px;
   margin-top: 35px;
   margin-bottom: 25px;
+}
+
+h1:hover {
+  cursor: pointer;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
 }
 
 h2 {
@@ -70,24 +83,76 @@ h3, header {
     "SCAN" 0;
 }
 
+#pages {
+  padding-top: 10px;
+  display:flex;
+  justify-content: flex-start;
+  gap:20px;
+  /* align-content: flex-start; */
+  align-items:flex-end;
+}
+
 nav {
-  padding: 5px;
-  padding-top: 20px;
+  padding-top: 10px;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: #bf9d6d;
+  /* background-color: ; */
+
+  font-style: italic;
+  font-family: "Jacquard 12", serif;
+  /* font-weight: 100; */
+  color: #414a37;
+  display: inline-block;
+  padding: 4px 13px;
+  font-size: 23px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  /* border-radius: 8px; */
+  box-shadow: 0 5px #99744a;
+}
+
+button:hover {
+  background-color: #b69260;
+  box-shadow: 0 5px #815e36;
 }
 
 p, ul, ol, table {
   /* background-color: #bf9d6d; */
   /* color: #414a37; */
   color: #99744a;
+  font-style: normal;
+}
+
+p, ul, ol, table, a {
   font-size: 30px;
   font-family: "Road Rage", serif;
   font-weight: 400;
-  font-style: normal;
 }
+
 
 a {
   color: #b78c5b;
   font-style: italic;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px ;
+  justify-items: center;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#gallery-item img {
+  width:80%
 }
 
 img {

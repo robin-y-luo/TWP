@@ -24,19 +24,21 @@
 	<body>
 	<div class="wrapper">
 		<header>
-			<a href="index.html" class="site-logo">
-				<img class="site-logo-image" src="images/kitty.svg" alt="Home Page">Home Page
-			</a> |
-			<a href="twp-ugly.html">Ugly Page</a>
+			<div id="pages">
+				<a href="index.html" class="site-logo">
+					<img class="site-logo-image" src="images/kitty.svg" alt="Home Page"><button type="button">Home Page</button>
+				</a>
+				<a href="twp-ugly.html"><button type="button">Ugly Page</button></a>
+			</div>
 			<nav>
-				<a href="#preface">Preface</a> |
-				<a href="#overview">Overview</a> |
-				<a href="#gallery">Gallery</a> |
-				<a href="#data">Item Data</a> |
-				<a href="#gallery">Gallery</a> |
-				<a href="#iotw">Item of the Week</a> |
-				<a href="#coda">Coda</a> |
-				<a href="#author">About the Author</a>
+				<!-- <button type="button">Click Me!</button> -->
+				<a href="#preface"><button type="button">Preface</button></a>
+				<a href="#overview"><button type="button">Overview</button></a>
+				<a href="#gallery"><button type="button">Gallery</button></a>
+				<a href="#data"><button type="button">Item Data</button></a>
+				<a href="#iotw"><button type="button">Item of the Week</button></a>
+				<a href="#coda"><button type="button">Coda</button></a>
+				<a href="#author"><button type="button">About the Author</button></a>
 			</nav>
 		</header>
 		<!--		1. Headings: Main page title (h1), Section headings (h2), sub-section headings for the Overview (h3).-->
@@ -89,32 +91,53 @@
 		<!--4. Images (img) for your nine items (in the Gallery section) and your item of the week.-->
 		<div id="gallery">
 			<h2>Gallery:</h2>
-			<img src="images/modelo.jpg" alt="">
-			<p>Beer Bottle</p>
+			<div class="container">
+				<div id="gallery-item">
+					<img src="images/modelo.jpg" alt="">
+					<p>Beer Bottle</p>
+				</div>
 
-			<img src="images/kirby.jpg" alt="">
-			<p>Toy Box</p>
+				<div id="gallery-item">
+					<img src="images/kirby.jpg" alt="">
+					<p>Toy Box</p>
+				</div>
 
-			<img src="images/mask.jpg" alt="">
-			<p>Face Mask</p>
+				<div id="gallery-item">
+					<img src="images/mask.jpg" alt="">
+					<p>Face Mask</p>
+				</div>
 
-			<img src="images/miffy.jpg" alt="">
-			<p>Nail Stickers</p>
+				<div id="gallery-item">
+					<img src="images/miffy.jpg" alt="">
+					<p>Nail Stickers</p>
+				</div>
 
-			<img src="images/muc.jpg" alt="">
-			<p>Cold Medicine</p>
+				<div id="gallery-item">
+					<img src="images/muc.jpg" alt="">
+					<p>Cold Medicine</p>
+				</div>
 
-			<img src="images/bleach.jpg" alt="">
-			<p>Hair Mask</p>
+				<div id="gallery-item">
+					<img src="images/bleach.jpg" alt="">
+					<p>Hair Mask</p>
+				</div>
 
-			<img src="images/patch.jpg" alt="">
-			<p>Acne Patches</p>
+				<div id="gallery-item">
+					<img src="images/patch.jpg" alt="">
+					<p>Acne Patches</p>
+				</div>
 
-			<img src="images/flowers.jpg" alt="">
-			<p>Flowers</p>
+				<div id="gallery-item">
+					<img src="images/flowers.jpg" alt="">
+					<p>Flowers</p>
+				</div>
 
-			<img src="images/arctic.jpg" alt="">
-			<p>Hair Dye</p>
+				<div id="gallery-item">
+					<img src="images/arctic.jpg" alt="">
+					<p>Hair Dye</p>
+				</div>
+
+			</div>
 		</div>
 <!--5. Two ordered lists (ol) for the Item Data section, each ordering your nine items in terms of  a shared property (e.g., from most expensive to least expensive, from most dangerous to least dangerous). Give each list a descriptive heading (h3).-->
 		<div id="data">
